@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB50D2CD28C38A9700B20F9B /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50D2CC28C38A9700B20F9B /* RankingViewController.swift */; };
+		EB50D2CF28C38AAA00B20F9B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50D2CE28C38AAA00B20F9B /* GameViewController.swift */; };
 		EBC6E41D28C04D8D0089637E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6E41C28C04D8D0089637E /* AppDelegate.swift */; };
 		EBC6E41F28C04D8D0089637E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6E41E28C04D8D0089637E /* SceneDelegate.swift */; };
 		EBC6E42128C04D8D0089637E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6E42028C04D8D0089637E /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB50D2CC28C38A9700B20F9B /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		EB50D2CE28C38AAA00B20F9B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EBC6E41928C04D8D0089637E /* HighscoreRenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighscoreRenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC6E41C28C04D8D0089637E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBC6E41E28C04D8D0089637E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				EBC6E41C28C04D8D0089637E /* AppDelegate.swift */,
 				EBC6E41E28C04D8D0089637E /* SceneDelegate.swift */,
 				EBC6E42028C04D8D0089637E /* ViewController.swift */,
+				EB50D2CE28C38AAA00B20F9B /* GameViewController.swift */,
+				EB50D2CC28C38A9700B20F9B /* RankingViewController.swift */,
 				EBC6E42228C04D8D0089637E /* Main.storyboard */,
 				EBC6E42528C04D8F0089637E /* Assets.xcassets */,
 				EBC6E42728C04D8F0089637E /* LaunchScreen.storyboard */,
@@ -150,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB50D2CF28C38AAA00B20F9B /* GameViewController.swift in Sources */,
 				EBC6E42128C04D8D0089637E /* ViewController.swift in Sources */,
 				EBC6E41D28C04D8D0089637E /* AppDelegate.swift in Sources */,
 				EBC6E41F28C04D8D0089637E /* SceneDelegate.swift in Sources */,
+				EB50D2CD28C38A9700B20F9B /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
